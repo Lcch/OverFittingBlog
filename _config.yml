@@ -65,8 +65,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-baidu_analytics: 4fc98d903e0492de8cb7c077cd421bfd
-
 math:
   engine: 'mathjax' # or 'katex'
   mathjax:

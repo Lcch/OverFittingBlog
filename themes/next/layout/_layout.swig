@@ -8,12 +8,11 @@
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
   {% include '_partials/head.swig' %}
+  {% include '_scripts/third-party/analytics.swig' %}
   <title>{% block title %}{% endblock %}</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
-
-  {% include '_scripts/third-party/analytics.swig' %}
 
   {% set container_class = "container one-collumn " %}
   {% if theme.sidebar.position %}
