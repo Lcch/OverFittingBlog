@@ -32,9 +32,9 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
   about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -65,9 +65,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+# scheme: Pisces
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -128,6 +128,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+social:
+  GitHub: https://github.com/Lcch
+  Instagram: https://www.instagram.com/haochenpku/
 
 
 # Social Links Icons
@@ -305,7 +308,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  #admin_nickname: Author
+  # admin_nickname: Author
 
 
 # Facebook SDK Support.
